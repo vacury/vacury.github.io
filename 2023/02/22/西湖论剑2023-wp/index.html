@@ -34,8 +34,9 @@
 <meta property="og:image" content="http://example.com/2023/02/22/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%912023-wp/image-20230202192551097.png">
 <meta property="og:image" content="http://example.com/2023/02/22/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%912023-wp/image-20230202190915339.png">
 <meta property="og:image" content="http://example.com/2023/02/22/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%912023-wp/image-20230202191549311.png">
+<meta property="og:image" content="http://example.com/2023/02/22/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%912023-wp/image-20230202192218678.png">
 <meta property="article:published_time" content="2023-02-22T14:49:18.000Z">
-<meta property="article:modified_time" content="2023-02-22T14:50:12.366Z">
+<meta property="article:modified_time" content="2023-02-22T14:53:03.912Z">
 <meta property="article:author" content="vacury">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2023/02/22/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%912023-wp/image-20230202185037227.png">
@@ -197,7 +198,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-02-22 22:49:18 / 修改时间：22:50:12" itemprop="dateCreated datePublished" datetime="2023-02-22T22:49:18+08:00">2023-02-22</time>
+              <time title="创建时间：2023-02-22 22:49:18 / 修改时间：22:53:03" itemprop="dateCreated datePublished" datetime="2023-02-22T22:49:18+08:00">2023-02-22</time>
             </span>
 
           
@@ -260,7 +261,7 @@
 <p>首先要求传一个checkcode，长度是16，然后对他进行转小写操作，最后判断与aGr5AtSp55dRacer是否相等，相等输出flag2</p>
 <p>基本不太可能，转小写还和有大写的全等于。不太可能。最后突发奇想，如果让转小写的时候报错，让tay–catch抓到，不就进不了去里面的if了嘛。所以方向转到如何让他报错。最后发现，Object.toLowerCase()是会报错的。所以改变传参类型，传js，传一个Object类型。但要过checkcode.length，在Object里，length就是属性。</p>
 <p>所以给checkcode加一个属性，length，值为16即可。</p>
-<p>![image-20230202192218678](C:&#x2F;Users&#x2F;vacury&#x2F;Desktop&#x2F;题目复现&#x2F;web wp&#x2F;wp&#x2F;image-20230202192218678.png)</p>
+<p><img src="/2023/02/22/%E8%A5%BF%E6%B9%96%E8%AE%BA%E5%89%912023-wp/image-20230202192218678.png" alt="image-20230202192218678"></p>
 
     </div>
 
